@@ -73,20 +73,78 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oaf-M2-CCp">
+                                <rect key="frame" x="0.0" y="96" width="414" height="717"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="ixp-r7-dUS"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="41Y-xR-nO1"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7DH-6m-8ZU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Oaf-M2-CCp" firstAttribute="bottom" secondItem="7DH-6m-8ZU" secondAttribute="bottom" id="GFc-PV-7ge"/>
                             <constraint firstItem="AIp-yM-IjK" firstAttribute="leading" secondItem="7DH-6m-8ZU" secondAttribute="leading" id="UDx-uw-Chd"/>
+                            <constraint firstItem="Oaf-M2-CCp" firstAttribute="top" secondItem="AIp-yM-IjK" secondAttribute="bottom" id="WCu-3S-rAu"/>
                             <constraint firstItem="AIp-yM-IjK" firstAttribute="top" secondItem="7DH-6m-8ZU" secondAttribute="top" id="dv6-DI-iRG"/>
+                            <constraint firstItem="Oaf-M2-CCp" firstAttribute="trailing" secondItem="7DH-6m-8ZU" secondAttribute="trailing" id="qZZ-j7-Mky"/>
                             <constraint firstItem="7DH-6m-8ZU" firstAttribute="trailing" secondItem="AIp-yM-IjK" secondAttribute="trailing" id="yCq-eX-vKa"/>
+                            <constraint firstItem="Oaf-M2-CCp" firstAttribute="leading" secondItem="7DH-6m-8ZU" secondAttribute="leading" id="yJI-dg-ERk"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="首页" image="house.fill" catalog="system" id="so7-qD-rvu"/>
+                    <connections>
+                        <outlet property="buttonBarView" destination="AIp-yM-IjK" id="IzD-rH-FMW"/>
+                        <outlet property="containerView" destination="Oaf-M2-CCp" id="bRk-DL-cCV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2cf-dW-M1H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1075" y="865"/>
+            <point key="canvasLocation" x="-1075.3623188405797" y="864.50892857142856"/>
+        </scene>
+        <!--DiscoveryVC-->
+        <scene sceneID="iSD-4o-w2d">
+            <objects>
+                <viewController storyboardIdentifier="DiscoveryVCID" id="aWM-c6-QYy" customClass="DiscoveryVC" customModule="LittlePink_Book" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7qp-Qz-Z7I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Pts-Fp-GIY"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MT6-G7-W1V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-77" y="453"/>
+        </scene>
+        <!--Near ByVC-->
+        <scene sceneID="oCg-mg-tu3">
+            <objects>
+                <viewController storyboardIdentifier="NearByVCID" id="BEN-hl-RFy" customClass="NearByVC" customModule="LittlePink_Book" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RPS-Qx-50C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0rO-rH-oWk"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I2Z-Al-AJG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1" y="1141"/>
+        </scene>
+        <!--FollowVC-->
+        <scene sceneID="rDz-EB-32k">
+            <objects>
+                <viewController storyboardIdentifier="FollowVCID" id="vhg-SI-iRQ" customClass="FollowVC" customModule="LittlePink_Book" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hdk-Rp-xPF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="cUL-sU-aAY"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NPT-MR-08M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="829"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7XE-dr-6Oa">
@@ -154,6 +212,15 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
