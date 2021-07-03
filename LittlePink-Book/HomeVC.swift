@@ -11,9 +11,31 @@ import XLPagerTabStrip
 class HomeVC: ButtonBarPagerTabStripViewController {
 
     override func viewDidLoad() {
+        
+        //  MARK: 设置上方的bar,按钮,条的UI
+        
+        //  1.整体bar--在sb上设
+        
+        //  2.selectedBar--按钮下方的条
+        settings.style.selectedBarBackgroundColor = UIColor.init(named: "main")!
+        settings.style.selectedBarHeight = 3
+        
+        //  3.buttonBarItem--文本或图片的按钮
+        settings.style.buttonBarItemBackgroundColor = .clear
+        settings.style.buttonBarItemTitleColor = .label
+        settings.style.buttonBarItemFont = .systemFont(ofSize: 16)
+        settings.style.buttonBarItemLeftRightMargin = 0
+        
         super.viewDidLoad()
+        
+        containerView.bounces = false
+        
+        changeCurrentIndexProgressive = { (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
+            guard changeCurrentIndex == true else { return }
 
-        // Do any additional setup after loading the view.
+            oldCell?.label.textColor = .secondaryLabel
+            newCell?.label.textColor = .label
+        }
     }
 
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
@@ -21,7 +43,7 @@ class HomeVC: ButtonBarPagerTabStripViewController {
         let nearByVC = storyboard!.instantiateViewController(identifier: kNearByVCID)
         let discoveryVC = storyboard!.instantiateViewController(identifier: kDiscoveryVCID)
         
-        return [followVC, nearByVC, discoveryVC]
+        return [discoveryVC, followVC, nearByVC]
     }
     
 }

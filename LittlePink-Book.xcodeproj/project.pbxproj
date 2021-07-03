@@ -19,6 +19,8 @@
 		30A7C6BA2690561100286BEB /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C6B92690561100286BEB /* DiscoveryVC.swift */; };
 		30A7C6BC2690562200286BEB /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C6BB2690562200286BEB /* NearByVC.swift */; };
 		30A7C6BE2690578B00286BEB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C6BD2690578B00286BEB /* Constants.swift */; };
+		30A7C6C226906FCE00286BEB /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C6C126906FCE00286BEB /* WaterfallVC.swift */; };
+		30A7C6C4269074AC00286BEB /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C6C3269074AC00286BEB /* WaterfallCell.swift */; };
 		E96BDF94A022D026BB55083D /* Pods_LittlePink_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73A5CCD91E472FB02D74AA8 /* Pods_LittlePink_Book.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		30A7C6B92690561100286BEB /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
 		30A7C6BB2690562200286BEB /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
 		30A7C6BD2690578B00286BEB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30A7C6C126906FCE00286BEB /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
+		30A7C6C3269074AC00286BEB /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		5E7B359B62EDDDA72C57BEF0 /* Pods-LittlePink-Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-Book.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink-Book/Pods-LittlePink-Book.debug.xcconfig"; sourceTree = "<group>"; };
 		76EB288F4DFE65168F4AC7A6 /* Pods-LittlePink-Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-Book.release.xcconfig"; path = "Target Support Files/Pods-LittlePink-Book/Pods-LittlePink-Book.release.xcconfig"; sourceTree = "<group>"; };
 		E73A5CCD91E472FB02D74AA8 /* Pods_LittlePink_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +92,8 @@
 				30A7C69C2690336400286BEB /* AppDelegate.swift */,
 				30A7C69E2690336400286BEB /* SceneDelegate.swift */,
 				30A7C6A22690336400286BEB /* Main.storyboard */,
+				30A7C6C126906FCE00286BEB /* WaterfallVC.swift */,
+				30A7C6C3269074AC00286BEB /* WaterfallCell.swift */,
 				30A7C6C026905B9800286BEB /* Home */,
 				30A7C6BD2690578B00286BEB /* Constants.swift */,
 				30A7C6A82690336500286BEB /* Assets.xcassets */,
@@ -101,10 +107,10 @@
 		30A7C6C026905B9800286BEB /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				30A7C6B7269055FD00286BEB /* FollowVC.swift */,
-				30A7C6B92690561100286BEB /* DiscoveryVC.swift */,
-				30A7C6BB2690562200286BEB /* NearByVC.swift */,
 				30A7C6B52690517000286BEB /* HomeVC.swift */,
+				30A7C6B92690561100286BEB /* DiscoveryVC.swift */,
+				30A7C6B7269055FD00286BEB /* FollowVC.swift */,
+				30A7C6BB2690562200286BEB /* NearByVC.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -233,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A7C6BC2690562200286BEB /* NearByVC.swift in Sources */,
+				30A7C6C226906FCE00286BEB /* WaterfallVC.swift in Sources */,
+				30A7C6C4269074AC00286BEB /* WaterfallCell.swift in Sources */,
 				30A7C69D2690336400286BEB /* AppDelegate.swift in Sources */,
 				30A7C6B62690517000286BEB /* HomeVC.swift in Sources */,
 				30A7C6B8269055FE00286BEB /* FollowVC.swift in Sources */,

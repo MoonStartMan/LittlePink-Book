@@ -7,6 +7,10 @@
 
 import Foundation
 
+//  MARK: StoryboardID
 let kFollowVCID = "FollowVCID"
 let kNearByVCID = "NearByVCID"
 let kDiscoveryVCID = "DiscoveryVCID"
+
+//  MARK: CellID
+let kWaterfallCellID = "WaterfallCellID"

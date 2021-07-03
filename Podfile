@@ -6,5 +6,6 @@ target 'LittlePink-Book' do
   use_frameworks!
 
   # Pods for LittlePink-Book
+	pod 'CHTCollectionViewWaterfallLayout/Swift'
 	pod 'XLPagerTabStrip', '~> 9.0'
 end
