@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		30A7C69D2690336400286BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C69C2690336400286BEB /* AppDelegate.swift */; };
 		30A7C69F2690336400286BEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C69E2690336400286BEB /* SceneDelegate.swift */; };
-		30A7C6A12690336400286BEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C6A02690336400286BEB /* ViewController.swift */; };
 		30A7C6A42690336400286BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A7C6A22690336400286BEB /* Main.storyboard */; };
 		30A7C6A72690336400286BEB /* LittlePink_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C6A52690336400286BEB /* LittlePink_Book.xcdatamodeld */; };
 		30A7C6A92690336500286BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A7C6A82690336500286BEB /* Assets.xcassets */; };
 		30A7C6AC2690336500286BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A7C6AA2690336500286BEB /* LaunchScreen.storyboard */; };
 		30A7C6B42690351F00286BEB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 30A7C6B32690351F00286BEB /* .gitignore */; };
+		30A7C6B62690517000286BEB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C6B52690517000286BEB /* HomeVC.swift */; };
 		E96BDF94A022D026BB55083D /* Pods_LittlePink_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73A5CCD91E472FB02D74AA8 /* Pods_LittlePink_Book.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +22,13 @@
 		30A7C6992690336400286BEB /* LittlePink-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePink-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A7C69C2690336400286BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30A7C69E2690336400286BEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30A7C6A02690336400286BEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30A7C6A32690336400286BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30A7C6A62690336400286BEB /* LittlePink_Book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink_Book.xcdatamodel; sourceTree = "<group>"; };
 		30A7C6A82690336500286BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A7C6AB2690336500286BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30A7C6AD2690336500286BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A7C6B32690351F00286BEB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		30A7C6B52690517000286BEB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		5E7B359B62EDDDA72C57BEF0 /* Pods-LittlePink-Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-Book.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink-Book/Pods-LittlePink-Book.debug.xcconfig"; sourceTree = "<group>"; };
 		76EB288F4DFE65168F4AC7A6 /* Pods-LittlePink-Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-Book.release.xcconfig"; path = "Target Support Files/Pods-LittlePink-Book/Pods-LittlePink-Book.release.xcconfig"; sourceTree = "<group>"; };
 		E73A5CCD91E472FB02D74AA8 /* Pods_LittlePink_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +52,6 @@
 				5E7B359B62EDDDA72C57BEF0 /* Pods-LittlePink-Book.debug.xcconfig */,
 				76EB288F4DFE65168F4AC7A6 /* Pods-LittlePink-Book.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,12 +79,12 @@
 			children = (
 				30A7C69C2690336400286BEB /* AppDelegate.swift */,
 				30A7C69E2690336400286BEB /* SceneDelegate.swift */,
-				30A7C6A02690336400286BEB /* ViewController.swift */,
 				30A7C6A22690336400286BEB /* Main.storyboard */,
 				30A7C6A82690336500286BEB /* Assets.xcassets */,
 				30A7C6AA2690336500286BEB /* LaunchScreen.storyboard */,
 				30A7C6AD2690336500286BEB /* Info.plist */,
 				30A7C6A52690336400286BEB /* LittlePink_Book.xcdatamodeld */,
+				30A7C6B52690517000286BEB /* HomeVC.swift */,
 			);
 			path = "LittlePink-Book";
 			sourceTree = "<group>";
@@ -213,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A7C6A12690336400286BEB /* ViewController.swift in Sources */,
 				30A7C69D2690336400286BEB /* AppDelegate.swift in Sources */,
+				30A7C6B62690517000286BEB /* HomeVC.swift in Sources */,
 				30A7C6A72690336400286BEB /* LittlePink_Book.xcdatamodeld in Sources */,
 				30A7C69F2690336400286BEB /* SceneDelegate.swift in Sources */,
 			);
