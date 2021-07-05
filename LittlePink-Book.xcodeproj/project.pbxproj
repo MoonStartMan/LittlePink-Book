@@ -10,6 +10,8 @@
 		30850C822692DAEB00DB7C42 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30850C802692DAEB00DB7C42 /* Localizable.strings */; };
 		30850C842692F45B00DB7C42 /* infoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30850C832692F45A00DB7C42 /* infoPlist.strings */; };
 		30850C862692FC2F00DB7C42 /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30850C852692FC2F00DB7C42 /* TabBarC.swift */; };
+		30850C88269307D300DB7C42 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30850C87269307D300DB7C42 /* PostVC.swift */; };
+		30850C8A2693248800DB7C42 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30850C892693248800DB7C42 /* Extensions.swift */; };
 		30A7C69D2690336400286BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C69C2690336400286BEB /* AppDelegate.swift */; };
 		30A7C69F2690336400286BEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A7C69E2690336400286BEB /* SceneDelegate.swift */; };
 		30A7C6A42690336400286BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A7C6A22690336400286BEB /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 		30850C812692DAEB00DB7C42 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		30850C832692F45A00DB7C42 /* infoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = infoPlist.strings; sourceTree = "<group>"; };
 		30850C852692FC2F00DB7C42 /* TabBarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
+		30850C87269307D300DB7C42 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		30850C892693248800DB7C42 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		30A7C6992690336400286BEB /* LittlePink-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePink-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A7C69C2690336400286BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30A7C69E2690336400286BEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				30A7C6BD2690578B00286BEB /* Constants.swift */,
+				30850C892693248800DB7C42 /* Extensions.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 				30A7C69E2690336400286BEB /* SceneDelegate.swift */,
 				30A7C6A22690336400286BEB /* Main.storyboard */,
 				30850C852692FC2F00DB7C42 /* TabBarC.swift */,
+				30850C87269307D300DB7C42 /* PostVC.swift */,
 				30A7C6C026905B9800286BEB /* Home */,
 				30850C702692AB1000DB7C42 /* Waterfall */,
 				30850C6E2692AAE200DB7C42 /* Common */,
@@ -274,7 +280,9 @@
 				30A7C6C4269074AC00286BEB /* WaterfallCell.swift in Sources */,
 				30A7C69D2690336400286BEB /* AppDelegate.swift in Sources */,
 				30A7C6B62690517000286BEB /* HomeVC.swift in Sources */,
+				30850C88269307D300DB7C42 /* PostVC.swift in Sources */,
 				30A7C6B8269055FE00286BEB /* FollowVC.swift in Sources */,
+				30850C8A2693248800DB7C42 /* Extensions.swift in Sources */,
 				30A7C6A72690336400286BEB /* LittlePink_Book.xcdatamodeld in Sources */,
 				30A7C69F2690336400286BEB /* SceneDelegate.swift in Sources */,
 				30A7C6BA2690561100286BEB /* DiscoveryVC.swift in Sources */,

@@ -1,4 +1,4 @@
-/* 
+/*
   infoPlist.strings
   LittlePink-Book
 
@@ -6,4 +6,4 @@
   
 */
 
-"CFBundleDisplayName" = "小粉书"
+"CFBundleDisplayName" = "小粉书";
