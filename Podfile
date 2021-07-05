@@ -8,4 +8,5 @@ target 'LittlePink-Book' do
   # Pods for LittlePink-Book
 	pod 'CHTCollectionViewWaterfallLayout/Swift'
 	pod 'XLPagerTabStrip', '~> 9.0'
+	pod 'YPImagePicker'
 end

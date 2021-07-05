@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a8y-Oi-JCA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zNT-NF-gm5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--消息-->
+        <!--Message-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LittlePink_Book" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,13 +20,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="消息" image="message.fill" catalog="system" id="M8n-Z3-PIY"/>
+                    <tabBarItem key="tabBarItem" title="Message" image="message.fill" catalog="system" id="M8n-Z3-PIY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1075" y="-607"/>
         </scene>
-        <!--商城-->
+        <!--Shopping-->
         <scene sceneID="2vp-eD-IM9">
             <objects>
                 <viewController id="ANK-zJ-r33" sceneMemberID="viewController">
@@ -36,13 +36,13 @@
                         <viewLayoutGuide key="safeArea" id="NG7-wz-bSP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="商城" image="cart.fill" catalog="system" id="QxQ-fw-IsI"/>
+                    <tabBarItem key="tabBarItem" title="Shopping" image="cart.fill" catalog="system" id="QxQ-fw-IsI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pjG-oQ-xRr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1075" y="96"/>
         </scene>
-        <!--首页-->
+        <!--Home-->
         <scene sceneID="SA3-e6-dVV">
             <objects>
                 <viewController id="w1x-Mr-bCy" customClass="HomeVC" customModule="LittlePink_Book" customModuleProvider="target" sceneMemberID="viewController">
@@ -91,7 +91,7 @@
                             <constraint firstItem="Oaf-M2-CCp" firstAttribute="leading" secondItem="7DH-6m-8ZU" secondAttribute="leading" id="yJI-dg-ERk"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="首页" image="house.fill" catalog="system" id="so7-qD-rvu"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="so7-qD-rvu"/>
                     <connections>
                         <outlet property="buttonBarView" destination="AIp-yM-IjK" id="IzD-rH-FMW"/>
                         <outlet property="containerView" destination="Oaf-M2-CCp" id="bRk-DL-cCV"/>
@@ -119,11 +119,11 @@
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="C9K-wT-7y2">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <rect key="frame" x="16" y="0.0" width="128" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UD3-hh-S5T">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
@@ -189,10 +189,10 @@
             </objects>
             <point key="canvasLocation" x="978" y="1155"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab BarC-->
         <scene sceneID="7XE-dr-6Oa">
             <objects>
-                <tabBarController id="zNT-NF-gm5" sceneMemberID="viewController">
+                <tabBarController id="zNT-NF-gm5" customClass="TabBarC" customModule="LittlePink_Book" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h5S-VE-3wJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -211,7 +211,7 @@
             </objects>
             <point key="canvasLocation" x="-2088" y="390"/>
         </scene>
-        <!--我-->
+        <!--Me-->
         <scene sceneID="wVA-CI-gpM">
             <objects>
                 <viewController id="gYf-cZ-zEw" sceneMemberID="viewController">
@@ -221,13 +221,13 @@
                         <viewLayoutGuide key="safeArea" id="d4X-R7-INQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="我" image="person.fill" catalog="system" id="TPU-6O-jzG"/>
+                    <tabBarItem key="tabBarItem" title="Me" image="person.fill" catalog="system" id="TPU-6O-jzG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RMx-43-9iq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1075" y="-1387"/>
         </scene>
-        <!--发布-->
+        <!--Post-->
         <scene sceneID="ybR-Bx-nI5">
             <objects>
                 <viewController id="k6r-qU-n3W" sceneMemberID="viewController">
@@ -237,7 +237,7 @@
                         <viewLayoutGuide key="safeArea" id="Jh8-Mm-zwA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="发布" image="plus.rectangle.fill" catalog="system" id="Sun-qg-xc0"/>
+                    <tabBarItem key="tabBarItem" title="Post" image="plus.rectangle.fill" catalog="system" id="Sun-qg-xc0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9QP-Yp-wcD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -246,7 +246,7 @@
         <!--WaterfallVC-->
         <scene sceneID="3ss-r4-2za">
             <objects>
-                <collectionViewController id="a8y-Oi-JCA" customClass="WaterfallVC" customModule="LittlePink_Book" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="WaterfallVCID" id="a8y-Oi-JCA" customClass="WaterfallVC" customModule="LittlePink_Book" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="BdO-2a-1W0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
