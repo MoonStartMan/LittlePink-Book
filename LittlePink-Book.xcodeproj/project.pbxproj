@@ -37,6 +37,8 @@
 		30850C852692FC2F00DB7C42 /* TabBarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
 		30850C87269307D300DB7C42 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 		30850C892693248800DB7C42 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		30869B1A26942743000E9B81 /* 闭包.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "闭包.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		30869B1C26948579000E9B81 /* 值类型+引用类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "值类型+引用类型.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		30A7C6992690336400286BEB /* LittlePink-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePink-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A7C69C2690336400286BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30A7C69E2690336400286BEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,16 @@
 			path = Waterfall;
 			sourceTree = "<group>";
 		};
+		30869B1B269482C4000E9B81 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				30850C87269307D300DB7C42 /* PostVC.swift */,
+				30869B1A26942743000E9B81 /* 闭包.playground */,
+				30869B1C26948579000E9B81 /* 值类型+引用类型.playground */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
 		30A7C6902690336400286BEB = {
 			isa = PBXGroup;
 			children = (
@@ -123,11 +135,11 @@
 				30A7C69E2690336400286BEB /* SceneDelegate.swift */,
 				30A7C6A22690336400286BEB /* Main.storyboard */,
 				30850C852692FC2F00DB7C42 /* TabBarC.swift */,
-				30850C87269307D300DB7C42 /* PostVC.swift */,
 				30A7C6C026905B9800286BEB /* Home */,
 				30850C702692AB1000DB7C42 /* Waterfall */,
 				30850C6E2692AAE200DB7C42 /* Common */,
 				30A7C6A82690336500286BEB /* Assets.xcassets */,
+				30869B1B269482C4000E9B81 /* Demos */,
 				30A7C6AA2690336500286BEB /* LaunchScreen.storyboard */,
 				30A7C6AD2690336500286BEB /* Info.plist */,
 				30A7C6A52690336400286BEB /* LittlePink_Book.xcdatamodeld */,
