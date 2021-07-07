@@ -55,6 +55,8 @@
 		30A7C6BD2690578B00286BEB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		30A7C6C126906FCE00286BEB /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
 		30A7C6C3269074AC00286BEB /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
+		30B39E0226953AC40066F928 /* ARC+循环引用.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ARC+循环引用.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		30B39E03269556E30066F928 /* 枚举.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "枚举.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5E7B359B62EDDDA72C57BEF0 /* Pods-LittlePink-Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-Book.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink-Book/Pods-LittlePink-Book.debug.xcconfig"; sourceTree = "<group>"; };
 		76EB288F4DFE65168F4AC7A6 /* Pods-LittlePink-Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-Book.release.xcconfig"; path = "Target Support Files/Pods-LittlePink-Book/Pods-LittlePink-Book.release.xcconfig"; sourceTree = "<group>"; };
 		E73A5CCD91E472FB02D74AA8 /* Pods_LittlePink_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,8 @@
 				30850C87269307D300DB7C42 /* PostVC.swift */,
 				30869B1A26942743000E9B81 /* 闭包.playground */,
 				30869B1C26948579000E9B81 /* 值类型+引用类型.playground */,
+				30B39E0226953AC40066F928 /* ARC+循环引用.playground */,
+				30B39E03269556E30066F928 /* 枚举.playground */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
