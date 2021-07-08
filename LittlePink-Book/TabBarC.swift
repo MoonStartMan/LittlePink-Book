@@ -37,16 +37,11 @@ class TabBarC: UITabBarController, UITabBarControllerDelegate{
             //  总结: 允许一个笔记发布单个视频或多张照片
             
             //  MARK: 相册配置
-            config.library.defaultMultipleSelection = true
-            config.library.maxNumberOfItems = kMaxPhotoCount
-            config.library.spacingBetweenItems = 2
+            config.library.defaultMultipleSelection = true  //  是否可多选
+            config.library.maxNumberOfItems = kMaxPhotoCount    //  最大选取照片或视频数
+            config.library.spacingBetweenItems = kSpacingBetweenItem    //  照片缩略图之间的间距
             
-            //  MARK: 视频配置
-            config.video.recordingTimeLimit = 60.0
-            config.video.libraryTimeLimit = 60.0
-            config.video.minimumTimeLimit = 3.0
-            config.video.trimmerMaxDuration = 60.0
-            config.video.trimmerMinDuration = 3.0
+            //  MARK: 视频配置(参照文档,此处全部默认)
             
             //  MARK: - Gallery(多选完后的展示和编辑页面)-画廊
             config.gallery.hidesRemoveButton = false
