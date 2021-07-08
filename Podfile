@@ -9,4 +9,6 @@ target 'LittlePink-Book' do
 	pod 'CHTCollectionViewWaterfallLayout/Swift'
 	pod 'XLPagerTabStrip', '~> 9.0'
 	pod 'YPImagePicker'
+  pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'SKPhotoBrowser'
 end

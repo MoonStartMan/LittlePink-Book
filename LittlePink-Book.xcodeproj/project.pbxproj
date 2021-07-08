@@ -64,6 +64,7 @@
 		30B39E062695A2DA0066F928 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		30B4DDCB26968C640094F01E /* 用代码实现CollectionView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "用代码实现CollectionView.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		30B4DDCC2696BB480094F01E /* PhotoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFooter.swift; sourceTree = "<group>"; };
+		30B4DDCF2696F3670094F01E /* LittlePink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittlePink-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E7B359B62EDDDA72C57BEF0 /* Pods-LittlePink-Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-Book.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink-Book/Pods-LittlePink-Book.debug.xcconfig"; sourceTree = "<group>"; };
 		76EB288F4DFE65168F4AC7A6 /* Pods-LittlePink-Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-Book.release.xcconfig"; path = "Target Support Files/Pods-LittlePink-Book/Pods-LittlePink-Book.release.xcconfig"; sourceTree = "<group>"; };
 		E73A5CCD91E472FB02D74AA8 /* Pods_LittlePink_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,9 +148,7 @@
 				30A7C69E2690336400286BEB /* SceneDelegate.swift */,
 				30A7C6A22690336400286BEB /* Main.storyboard */,
 				30850C852692FC2F00DB7C42 /* TabBarC.swift */,
-				30B39E042695954D0066F928 /* NoteEditVC.swift */,
-				30B39E062695A2DA0066F928 /* PhotoCell.swift */,
-				30B4DDCC2696BB480094F01E /* PhotoFooter.swift */,
+				30B4DDCE2696E7C20094F01E /* NoteEdit */,
 				30A7C6C026905B9800286BEB /* Home */,
 				30850C702692AB1000DB7C42 /* Waterfall */,
 				30850C6E2692AAE200DB7C42 /* Common */,
@@ -160,6 +159,7 @@
 				30A7C6A52690336400286BEB /* LittlePink_Book.xcdatamodeld */,
 				30850C802692DAEB00DB7C42 /* Localizable.strings */,
 				30850C832692F45A00DB7C42 /* infoPlist.strings */,
+				30B4DDCF2696F3670094F01E /* LittlePink-Bridging-Header.h */,
 			);
 			path = "LittlePink-Book";
 			sourceTree = "<group>";
@@ -173,6 +173,16 @@
 				30A7C6BB2690562200286BEB /* NearByVC.swift */,
 			);
 			name = Home;
+			sourceTree = "<group>";
+		};
+		30B4DDCE2696E7C20094F01E /* NoteEdit */ = {
+			isa = PBXGroup;
+			children = (
+				30B39E042695954D0066F928 /* NoteEditVC.swift */,
+				30B39E062695A2DA0066F928 /* PhotoCell.swift */,
+				30B4DDCC2696BB480094F01E /* PhotoFooter.swift */,
+			);
+			path = NoteEdit;
 			sourceTree = "<group>";
 		};
 		34541BEBE60DD3FBAF5A24D7 /* Frameworks */ = {
@@ -485,6 +495,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinguo.Test.LittlePink-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LittlePink-Book/LittlePink-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -505,6 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinguo.Test.LittlePink-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LittlePink-Book/LittlePink-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

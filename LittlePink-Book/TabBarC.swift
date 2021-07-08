@@ -46,7 +46,7 @@ class TabBarC: UITabBarController, UITabBarControllerDelegate{
             //  MARK: - Gallery(多选完后的展示和编辑页面)-画廊
             config.gallery.hidesRemoveButton = false
             
-            let picker = YPImagePicker()
+            let picker = YPImagePicker(configuration: config)
             
             //  MARK: 选完或按取消按钮后的异步回调处理 (依据配置处理单个或多个)
             picker.didFinishPicking { [unowned picker] items, cancelled in

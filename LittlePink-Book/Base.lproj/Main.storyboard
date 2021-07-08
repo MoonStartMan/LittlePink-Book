@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -330,14 +329,18 @@
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wrt-UD-eqB">
                                                             <rect key="frame" x="8" y="8" width="74" height="74"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                             <color key="tintColor" systemColor="secondaryLabelColor"/>
-                                                            <state key="normal" title="Button">
-                                                                <imageReference key="image" image="plus" catalog="system" symbolScale="large"/>
+                                                            <state key="normal" image="plus" catalog="system">
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
                                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                                 </preferredSymbolConfiguration>
                                                             </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </button>
                                                     </subviews>
                                                     <constraints>
@@ -346,6 +349,9 @@
                                                         <constraint firstAttribute="trailingMargin" secondItem="Wrt-UD-eqB" secondAttribute="trailing" id="euG-Ag-f44"/>
                                                         <constraint firstItem="Wrt-UD-eqB" firstAttribute="top" secondItem="mUK-qM-cvR" secondAttribute="topMargin" id="g8x-PC-I6L"/>
                                                     </constraints>
+                                                    <connections>
+                                                        <outlet property="adPhotoBtn" destination="Wrt-UD-eqB" id="h1F-ht-Ir6"/>
+                                                    </connections>
                                                 </collectionReusableView>
                                                 <connections>
                                                     <outlet property="dataSource" destination="x1j-WA-xqf" id="nz2-Jd-zu9"/>
