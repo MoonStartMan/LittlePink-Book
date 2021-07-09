@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  LittlePink
 //
-//  Created by 刘军 on 2020/10/31.
+//  Created by 王潇 on 2020/10/31.
 //
 
 import UIKit

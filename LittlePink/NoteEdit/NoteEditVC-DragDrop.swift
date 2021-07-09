@@ -2,7 +2,7 @@
 //  NoteEditVC-DragDrop.swift
 //  LittlePink
 //
-//  Created by 刘军 on 2020/12/3.
+//  Created by 王潇 on 2020/12/3.
 //
 
 import Foundation

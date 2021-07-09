@@ -2,7 +2,7 @@
 //  FollowVC.swift
 //  LittlePink
 //
-//  Created by 刘军 on 2020/11/7.
+//  Created by 王潇 on 2020/11/7.
 //
 
 import UIKit

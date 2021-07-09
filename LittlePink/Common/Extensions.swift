@@ -2,7 +2,7 @@
 //  Extensions.swift
 //  LittlePink
 //
-//  Created by 刘军 on 2020/11/17.
+//  Created by 王潇 on 2020/11/17.
 //
 
 import UIKit

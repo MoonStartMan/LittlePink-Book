@@ -2,7 +2,7 @@
 //  HomeVC.swift
 //  LittlePink
 //
-//  Created by 刘军 on 2020/11/6.
+//  Created by 王潇 on 2020/11/6.
 //
 
 import UIKit

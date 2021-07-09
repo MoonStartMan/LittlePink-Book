@@ -2,7 +2,7 @@
 //  PhotoFooter.swift
 //  LittlePink
 //
-//  Created by 刘军 on 2020/11/30.
+//  Created by 王潇 on 2020/11/30.
 //
 
 import UIKit
