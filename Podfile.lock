@@ -5,7 +5,7 @@ PODS:
   - SKPhotoBrowser (6.1.0)
   - SteviaLayout (4.7.3)
   - XLPagerTabStrip (9.0.0)
-  - YPImagePicker (4.5.0):
+  - YPImagePicker (4.4.0):
     - PryntTrimmerView (~> 4.0.2)
     - SteviaLayout (~> 4.7.3)
 
@@ -33,8 +33,8 @@ SPEC CHECKSUMS:
   SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
   SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
-  YPImagePicker: 6f410f475bd22fa8cd430495b54d4b2f15865c2d
+  YPImagePicker: 15aed8bcaa4dad976e11b6114126d731a2f9f3c9
 
-PODFILE CHECKSUM: 90b0e38162dc947535c822ea3273074747e49109
+PODFILE CHECKSUM: 4f899e8660d1eb73cca9ebe176fb08796e51d2db
 
 COCOAPODS: 1.9.3
